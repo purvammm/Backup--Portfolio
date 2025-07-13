@@ -6,7 +6,7 @@
     "build": "cd portfolio && npm ci && npm run build",
     "dev": "cd portfolio && npm run dev",
     "start": "cd portfolio && npm start",
-    "deploy": "cd portfolio && npm run build && npx wrangler pages deploy out --project-name=purvam-portfolio"
+    "deploy": "cd portfolio && npm run build && npx wrangler deploy"
   },
   "keywords": ["portfolio", "nextjs", "react", "tailwindcss"],
   "author": "Purvam Prajapati",
